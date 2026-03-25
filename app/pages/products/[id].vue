@@ -12,8 +12,6 @@ const { data: product } = await useFetch(uri);
 
 <template>
   <div>
-    <p>Id: {{ product.id }}</p>
-    <p>Title: {{ product.title }}</p>
-    <p>Price: {{ product.price }}</p>
+    <ProductDetails :product="product" />
   </div>
 </template>
