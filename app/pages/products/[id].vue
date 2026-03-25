@@ -1,6 +1,9 @@
 <script setup>
-const route = useRoute();
-const { id } = route.params;
+definePageMeta({
+  layout: 'products',
+});
+
+const { id } = useRoute().params;
 </script>
 
 <template>
