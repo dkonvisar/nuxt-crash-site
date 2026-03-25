@@ -7,5 +7,5 @@ const { id } = useRoute().params;
 </script>
 
 <template>
-  <p>Products details for {{ id }}</p>
+  <h1>Products details for {{ id }}</h1>
 </template>
