@@ -8,4 +8,21 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  app: {
+    head: {
+      title: 'Nuxt Crash Course',
+      meta: [
+        {
+          name: 'description',
+          content: 'Everything about Nuxt 3',
+        },
+      ],
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+        },
+      ],
+    },
+  },
 });
